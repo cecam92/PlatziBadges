@@ -76,7 +76,7 @@ class BadgeDetails extends React.Component {
               <h2>Actions</h2>
               <Link
                 to={`/badges/${badge.id}/edit`}
-                className="btn btn-danger mb-4"
+                className="btn btn-danger mb-\4"
               >
                 Edit
               </Link>
