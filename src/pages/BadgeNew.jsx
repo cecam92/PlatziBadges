@@ -1,5 +1,5 @@
 import React from "react";
-import header from "../images/badge-header.svg";
+import header from "../images/platziconf-logo.svg";
 import "./styles/BadgeNew.css";
 import Badge from "../components/Badge";
 import BadgeForm from "../components/BadgeForm.jsx";
@@ -28,16 +28,16 @@ class BadgeNew extends React.Component {
     return (
       <React.Fragment>
         <div className="BadgeNew__hero">
-          <img className="img-fluid" src={header} alt="logo" />
+          <img className="BadgeNew__hero-image img-fluid" src={header} alt="logo" />
         </div>
         <div className="container">
           <div className="row">
             <div className="col-6">
               <Badge
-                firstName={this.state.form.firstName}
-                lastName={this.state.form.lastName}
-                jobTitle={this.state.form.jobTitle}
-                twitter={this.state.form.twitter}
+                firstName={this.state.form.firstName || 'FIRST_NAME' }
+                lastName={this.state.form.lastName || 'LAST_NAME'}
+                jobTitle={this.state.form.jobTitle || 'JOB_TITLE'}
+                twitter={this.state.form.twitter || 'Twitter'}
               />
             </div>
             <div className="col-6">
