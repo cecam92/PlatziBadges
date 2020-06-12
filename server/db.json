@@ -2,11 +2,11 @@
   "badges": [
     {
       "id": "2de30c42-9deb-40fc-a41f-05e62b5939a7",
-      "firstName": "Pepita",
-      "lastName": "Grady",
-      "email": "Pepita_Berge@gmail.com",
-      "jobTitle": "Legacy Brand Director",
-      "twitter": "FredaGrady22221-7573",
+      "firstName": "Peito",
+      "lastName": "Grad",
+      "email": "Ppita_G@gmail.com",
+      "jobTitle": "Brand Director",
+      "twitter": "FredaG",
       "avatarUrl": "https://www.gravatar.com/avatar/f63a9c45aca0e7e7de0782a6b1dff40b?d=identicon"
     },
     {
@@ -448,6 +448,14 @@
       "jobTitle": "Engineer",
       "twitter": "cecam92",
       "id": "nYPqdbA"
+    },
+    {
+      "firstName": "Ginger",
+      "lastName": "Ridgeway",
+      "email": "ginger.ridgeway@gmail.com",
+      "jobTitle": "Adviser",
+      "twitter": "asrdfg",
+      "id": "47RZi4A"
     }
   ]
 }
