@@ -3,8 +3,8 @@ import "../pages/styles/BadgeDetails.css";
 import confLogo from "../images/platziconf-logo.svg";
 import Badge from "../components/Badge";
 import { Link } from "react-router-dom";
+import DeleteBadgeModal from "../components/DeleteBadgeModal";
 
-import Modal from "../components/Modal";
 function BadgeDetails(props) {
   const badge = props.badge;
 
@@ -50,7 +50,11 @@ function BadgeDetails(props) {
               <button onClick={props.onOpenModal} className="btn btn-primary">
                 Delete
               </button>
-              <Modal onClose={props.onCloseModal} isOpen={props.modalIsOpen} >loersad</Modal>  
+              <DeleteBadgeModal
+                onClose={props.onCloseModal}
+                isOpen={props.modalIsOpen}
+                onDeleteBadge ={props.onDeleteBadge}
+              />
             </div>
           </div>
         </div>

@@ -7,15 +7,14 @@ import api from "./api";
 import PageLoading from '../components/PageLoading.jsx';
 import MiniLoader from '../components/miniLoader'
 class Badges extends React.Component {
-  constructor(props) {
-    super(props);
+ 
 
-    this.state = {
+    state = {
       loading: true,
       error: null,
       data: undefined,
     };
-  }
+  
 
   componentWillUnmount(){
     clearInterval(this.interval);
@@ -65,7 +64,7 @@ class Badges extends React.Component {
             </div>
           </div>
         </div>
-        <div className="Badge__container">
+        <div className="Badges__container">
           <div className="Badges__buttons">
             <Link to="/badges/new" className="btn btn-primary">
               New Badge
